@@ -4,80 +4,134 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Welcome to Pizzorino</title>
+    <link rel="stylesheet" href="styling.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
-    <header>
-      <div class="Container">
-        <h1>Welcome to Pizzorino</h1>
-        <nav>
-          <ul>
+    <!--<div class="container">
+      img src="ivan-torres-MQUqbmszGGM-unsplash.jpg" alt="">
+    </div-->
+
+    <header class="container">
+      <nav>
+        <ul>
+          <button class="button">
             <li><a href="#Presentation">Our Shop</a></li>
+          </button>
+          <button class="button">
             <li><a href="#About Us">About Us</a></li>
+          </button>
+          <button class="button">
             <li><a href="#Recipes">Pizaa's</a></li>
+          </button>
+          <button class="button">
             <li><a href="#Contact">Contact</a></li>
-          </ul>
-        </nav>
-      </div>
+          </button>
+        </ul>
+      </nav>
     </header>
 
-    <section> 
-      <h2>Discover Pizzorino</h2>
-      <div class="section-image">
-        <img src="pizzakrab.jpg" alt="" />
+    <section>
+      <div class="text"><h1>Welcome to Pizzorino</h1></div>
+      <div class="section-image1">
+        <div class="title1">
+          <h2>Discover Pizzorino:</h2>
+
+          <p>
+            Welcome to Pizzorino, your ultimate destination for delicious pizzas
+            made with love and care.
+          </p>
+          <p>
+            Located in the heart of Algeria, our cozy shop is where culinary
+            dreams come true.
+          </p>
+        </div>
+        <div class="image">
+          <img src="emoji.jpg" alt="A girl hold a pizza" />
+        </div>
       </div>
-    
-      <p>Welcome to Pizzorino, your ultimate destination for delicious pizzas made with love and care.
-        <P>Located in the heart of Algeria, our cozy shop is where culinary dreams come true.</P>
-      </p>
-      
     </section>
 
     <section>
-  <h2>About Pizzorino</h2>
-  <div class="section-image">
-    <img src="pizza-stuff.jpg" alt="">
-  </div>
-   <h3>Pizzorino: "where Every Slince Tells a Story</h3>
-  <p>At Pizzorino, we pride ourselves on using only the freshest ingredients to create mouthwatering pizzas that delight your senses. Our dedicated team ensures every pizza is crafted with passion and precision.</p>
-<p>Visit us today and experience our delicious recipes</p>
+      <div class="title2">
+        <h2>About Pizzorino:</h2>
+        <div class="complet">
+          <div class="section-image2">
+            <img src="pizza-stuff.jpg" alt="" />
+          </div>
+          <div class="texte2">
+            <h3>Pizzorino: "where Every Slince Tells a Story</h3>
+            <p>
+              At Pizzorino, we pride ourselves on using only the freshest
+              ingredients to create mouthwatering pizzas that delight your
+              senses. Our dedicated team ensures every pizza is crafted with
+              passion and precision.
+            </p>
+            <p>Visit us today and experience our delicious recipes</p>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section>
-  <h2>Krabby Pizzas</h2>
-  <div><img src="pizzaRecipes.jpg" alt=""></div>
-  <div>
-    <ul>
-<li><h4>Margherita:</h4>
-<p>With Tomato Sauce , Mozzarella Di Bufala , Olive Oil , Olives , Basilic</p>
-</li>
-<li>
-  <h4>Hawaiian:</h4>
-  <p>Classic Sauce , Mozzarella , Pineapple </p>
-</li>
-<li> 
-  <h4>Italiani:</h4>
-  <p>Tomato Sauce , Mozzarella , Basil , Olives , Onions , Chicken , Eggplant , Capsium</p>
-</li>
-<li>
-  <h4>Papperoni:</h4>
-  <p>Tomato Sauce , Cheeses , Papperoni </p>
-</li>
-</ul>
-</div>
+      <div class="title3">
+        <h2>Krabby Pizzas:</h2>
+      </div>
+      <div class="complet2">
+        <div class="texte3">
+          <ul>
+            <li>
+              <h4>Margherita:</h4>
+              <p>
+                With Tomato Sauce , Mozzarella Di Bufala , Olive Oil , Olives ,
+                Basilic
+              </p>
+            </li>
+            <li>
+              <h4>Hawaiian:</h4>
+              <p>Classic Sauce , Mozzarella , Pineapple</p>
+            </li>
+            <li>
+              <h4>Papperoni:</h4>
+              <p>Tomato Sauce , Cheeses , Papperoni</p>
+            </li>
+            <li>
+              <h4>Italiani:</h4>
+              <p>
+                Tomato Sauce , Mozzarella , Basil , Olives , Onions , Chicken ,
+                Eggplant , Capsium
+              </p>
+            </li>
+          </ul>
+        </div>
+        <img src="pizzaRecipes.jpg" alt="The menu" />
+      </div>
     </section>
-    <section>
-      <h1>Contact Us</h1>
-      <form action="">
-        <label for="">Name</label>
-        <input type="text">
-        <label for="">Phone Number</label>
-        <input type="text">
-        <button type="submit">Added</button>
-      </form>
+
+    <!--section>
+      <div class="Contact">
+        <h1>Contact Us</h1>
+        <form action="">
+          <label for="">Name</label>
+          <input type="text" />
+          <label for="">Phone Number</label>
+          <input type="text" />
+          <button type="submit">Added</button>
+        </form>
+      </div>
     </section>
+
     <footer>
+
       <p>&copy;2024 Pizzpeino. All rights reserved.</p>
-      <p> Follow Us
+      <p>
+        Follow Us
         <a href="#Facebook">Facebook</a>
         <a href="#Instagram">Instagram</a>
         <a href="#Snapchat">Snapchat</a>
@@ -86,6 +140,49 @@
         For reservation call:
         <strong>0655615791</strong>
       </p>
+    </footer-->
+    <footer>
+      <div class="footerTitle"><h2>Book Your Table :</h2></div>
+      <div class="Contact">
+        <form action="">
+          <div class="box">
+            <div class="part1">
+              <label for="">Name</label>
+              <input type="text" />
+              <label for="">Phone Number</label>
+              <input type="text" />
+            </div>
+            <div class="part2">
+              <label for="">Message</label>
+              <input type="text" />
+            </div>
+            <button class="button2" type="submit">Added</button>
+          </div>
+        </form>
+      </div>
+      <div class="footerContainer">
+        <div class="socialIcons">
+          <a href=""><i class="fa-brands fa-facebook"></i></a>
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+          <a href=""><i class="fa-brands fa-twitter"></i></a>
+          <a href=""><i class="fa-brands fa-snapchat"></i></a>
+        </div>
+        <!--div class="footerNav">
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">News</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact Us</a></li>
+            <li><a href="">Our Team</a></li>
+          </ul>
+        </div-->
+      </div>
+      <div class="footerBottom">
+        <p>
+          &copy;2024 Pizzorino. All rights reserved.
+          <span class="designer">Nino</span>
+        </p>
+      </div>
     </footer>
   </body>
 </html>
